@@ -4,75 +4,20 @@ FileMaker stores scripts, layouts, fields and tables as XML, but Claris has neve
 
 I reverse engineered these formats through systematic round trip testing so that AI tools can generate FileMaker objects that actually paste. These repositories are that reference layer.
 
-|
- Repo 
-|
- What it does 
-|
- For 
-|
-|
-------
-|
---------------
-|
------
-|
-|
-[
-Script XML Skill
-](
-https://github.com/andykear/FileMaker-XMLsnippet-Claude-Skill
-)
-|
- Makes AI generated scripts paste correctly. Full step ID dictionary and the hidden paste handler rules. 
-|
- AI assisted FileMaker development 
-|
-|
-[
-Layout XML Skill
-](
-https://github.com/andykear/FileMaker-XMLsnippet-Layout-Claude-Skill
-)
-|
- Paste ready layout objects. All 18 object types, flags decoded, element order confirmed. 
-|
- AI assisted FileMaker development 
-|
-|
-[
-Field Definitions
-](
-https://github.com/andykear/FileMaker-XML-field-definitions
-)
-|
- Field and table definition XML, verified down to auto enter, validation and calculation options. 
-|
- AI assisted FileMaker development 
-|
-|
-[
-XML Inspector
-](
-https://github.com/andykear/FileMaker-XML-inspector-open-source
-)
-|
- Reads a Save as XML export in the browser. Finds unreferenced fields, broken references, diffs two versions. 
-|
- Auditing existing solutions 
-|
-|
-[
-XML Scrubber
-](
-https://github.com/andykear/FileMaker-XML-scrubber
-)
-|
- Strips API keys, passwords and internal hostnames from FileMaker XML before you share it with an AI tool. 
-|
- Sharing XML safely 
-|
+**[Script XML Skill](https://github.com/andykear/FileMaker-XMLsnippet-Claude-Skill)**
+Makes AI generated scripts paste correctly. Full step ID dictionary and the hidden paste handler rules.
+
+**[Layout XML Skill](https://github.com/andykear/FileMaker-XMLsnippet-Layout-Claude-Skill)**
+Paste ready layout objects. All 18 object types, flags decoded, element order confirmed.
+
+**[Field Definitions](https://github.com/andykear/FileMaker-XML-field-definitions)**
+Field and table definition XML, verified down to auto enter, validation and calculation options.
+
+**[XML Inspector](https://github.com/andykear/FileMaker-XML-inspector-open-source)**
+Reads a Save as XML export in the browser. Finds unreferenced fields, broken references, diffs two versions.
+
+**[XML Scrubber](https://github.com/andykear/FileMaker-XML-scrubber)**
+Strips API keys, passwords and internal hostnames from FileMaker XML before you share it with an AI tool.
 
 Everything is verified empirically, marked ✓ (round trip tested), ◎ (observed in exports) or ○ (inferred). All CC BY 4.0.
 
