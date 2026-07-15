@@ -6,7 +6,7 @@ I reverse engineered these formats to build a reference layer for agentic develo
 
 This work now powers two kinds of tool: skills that let AI generate FileMaker objects which actually paste, and standalone tools that analyse Save as XML exports and clean XML directly with no AI required.
 
-**Generation — paste-ready FileMaker**
+**Generation — paste-ready FileMaker XML**
 
 **[Script XML Skill](https://github.com/andykear/FileMaker-XMLsnippet-Claude-Skill)**
 The full script step ID dictionary, plus the hidden paste-handler rules that decide whether your XML survives the trip into FileMaker.
