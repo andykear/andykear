@@ -1,10 +1,13 @@
-# FileMaker's undocumented XML, reverse engineered
+# Reliable AI for FileMaker
 
-FileMaker stores scripts, layouts, fields and tables as XML — but Claris has never published the format, and FileMaker's paste handler silently drops anything it doesn't like. No error. The object just never appears.
+AI is genuinely useful for FileMaker development, but only if it stops guessing. Left to its training data, a model invents functions that don't exist, and emits layout and schema XML that FileMaker rejects silently — no error, the object just never appears.
 
-I reverse engineered these formats to build a reference layer for agentic development.
+These are open tools and specifications that fix that: the knowledge an AI needs to generate FileMaker that actually works, and the tools to check what it produces. Much of it is reverse-engineering FileMaker's undocumented clipboard XML — the formats Claris has never published, where a wrong guess pastes silently and breaks. The rest is giving the model the vocabulary and verification it otherwise lacks.
 
-This work now powers two kinds of tool: skills that let AI generate FileMaker objects which actually paste, and standalone tools that analyse Save as XML exports and clean XML directly with no AI required.
+**Start here**
+
+**[FileMaker AI Vocabulary](https://github.com/andykear/FileMaker-AI-vocabulary)**
+Every FileMaker 26 function and script step in ~7,000 tokens, so an AI stops inventing things that don't exist. The cheapest way to make any model better at FileMaker — no XML required.
 
 **Generation — paste-ready FileMaker XML**
 
@@ -14,7 +17,7 @@ The full script step ID dictionary, plus the hidden paste-handler rules that dec
 **[Layout XML Skill](https://github.com/andykear/FileMaker-XMLsnippet-Layout-Claude-Skill)** (XML2)
 All 18 layout object types mapped, every flag decoded, element order confirmed against native output. Verified across 45+ layouts in 10 production files.
 
-**[Field, Table & Value List Definitions](https://github.com/andykear/FileMaker-XML-field-definitions)** (XMFD, XMTB, XMVL) — this repo
+**[Field, Table & Value List Definitions](https://github.com/andykear/FileMaker-XML-field-definitions)** (XMFD, XMTB, XMVL)
 Field, table and value list definition XML — auto-enter, validation, storage, calculation options, and the three value list source arms — verified down to the individual option level.
 
 **Analysis — read, audit and clean existing XML**
