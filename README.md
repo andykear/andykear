@@ -1,4 +1,15 @@
-# Reliable AI for FileMaker
+## Analyse a FileMaker solution in your browser
+Nothing installed, nothing uploaded, works offline.
+
+**[Clockwork Inspector](https://github.com/andykear/FileMaker-XML-inspector-open-source)** (SaXML)
+Drop in a Save as XML export. Unreferenced fields tiered by confidence, broken references, script call tree, relationship graph drawn from the real TO geometry, layout wireframes, and a diff between two versions down to the calculation line.
+Every check is documented, so the findings are defensible in front of a client.
+
+**[XML Scrubber](https://github.com/andykear/FileMaker-XML-scrubber)** (SaXML + others)
+Strips API keys, passwords and internal hostnames out of FileMaker XML before you hand it to an AI tool.
+
+
+## Reliable AI for FileMaker
 
 AI is genuinely useful for FileMaker development, but only if it stops guessing. Left to its training data, a model invents functions that don't exist, and emits layout and schema XML that FileMaker rejects silently — no error, the object just never appears.
 
@@ -20,13 +31,6 @@ All 18 layout object types mapped, every flag decoded, element order confirmed a
 **[Field, Table & Value List Definitions](https://github.com/andykear/FileMaker-XML-field-definitions)** (XMFD, XMTB, XMVL)
 Field, table and value list definition XML — auto-enter, validation, storage, calculation options, and the three value list source arms — verified down to the individual option level.
 
-**Analysis — read, audit and clean existing XML**
-
-**[XML Inspector](https://github.com/andykear/FileMaker-XML-inspector-open-source)** (SaXML)
-Full-catalog dependency analysis of a Save as XML export, entirely in the browser. Finds unreferenced fields, silent-failure risks, broken references, and diffs two versions of a solution against each other.
-
-**[XML Scrubber](https://github.com/andykear/FileMaker-XML-scrubber)** (SaXML + others)
-Strips API keys, passwords and internal hostnames out of FileMaker XML before you hand it to an AI tool.
 
 **Verified, not guessed**
 
