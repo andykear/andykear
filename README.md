@@ -5,6 +5,9 @@ Nothing installed, nothing uploaded, works offline.
 Drop in a Save as XML export. Unreferenced fields tiered by confidence, broken references, script call tree, relationship graph drawn from the real TO geometry, layout wireframes, and a diff between two versions down to the calculation line.
 Every check is documented, so the findings are defensible in front of a client.
 
+**[XML Scrubber](https://github.com/andykear/FileMaker-XML-scrubber)** (SaXML + others)
+Strips API keys, passwords and internal hostnames out of FileMaker XML before you hand it to an AI tool.
+
 ## Reliable AI for FileMaker
 
 AI is genuinely useful for FileMaker development, but only if it stops guessing. Left to its training data, a model invents functions that don't exist, and emits layout and schema XML that FileMaker rejects silently — no error, the object just never appears.
