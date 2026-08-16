@@ -1,4 +1,4 @@
-## A second opinion, before you build
+## A second opinion, the Production Reasoning Layer
 
 **[FileMaker Second Opinion](https://github.com/andykear/FileMaker-second-opinion)**
 A reasoning skill, not a knowledge file. It makes the model challenge its own first answer on exactly the problems where the common FileMaker solution works in a demo and fails silently in production, and it forces a proper read of Claris Help, Notes and platform sections included, before any behaviour claim is made. Built and refined against production work. New, and the piece the rest of this page stacks under.
