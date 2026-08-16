@@ -1,8 +1,3 @@
-## FileMaker second opinion, the production reasoning layer
-
-**[FileMaker Second Opinion](https://github.com/andykear/FileMaker-second-opinion)**
-A reasoning skill, not a knowledge file. It makes the model challenge its own first answer on exactly the problems where the common FileMaker solution works in a demo and fails silently in production, and it forces a proper read of Claris Help, Notes and platform sections included, before any behaviour claim is made. Built and refined against production work. New, and the piece the rest of this page stacks under.
-
 ## Analyse a FileMaker solution in your browser
 Nothing installed, nothing uploaded, works offline.
 
@@ -20,6 +15,9 @@ AI is genuinely useful for FileMaker development, but only if it stops guessing.
 These are open tools and specifications that fix that: the knowledge an AI needs to generate FileMaker that actually works, and the tools to check what it produces. Much of it is reverse-engineering FileMaker's undocumented clipboard XML — the formats Claris has never published, where a wrong guess pastes silently and breaks. The rest is giving the model the vocabulary and verification it otherwise lacks.
 
 **Start here**
+
+**[FileMaker Second Opinion](https://github.com/andykear/FileMaker-second-opinion)**
+A reasoning skill, not a knowledge file. It makes the model challenge its own first answer on exactly the problems where the common FileMaker solution works in a demo and fails silently in production, and it forces a proper read of Claris Help, Notes and platform sections included, before any behaviour claim is made. Built and refined against production work. New, and the piece the rest of this page stacks under.
 
 **[FileMaker AI Vocabulary](https://github.com/andykear/FileMaker-AI-vocabulary)**
 Every FileMaker 26 function and script step in ~7,000 tokens, so an AI stops inventing things that don't exist. The cheapest way to make any model better at FileMaker — no XML required.
