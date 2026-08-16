@@ -12,7 +12,7 @@ Strips API keys, passwords and internal hostnames out of FileMaker XML before yo
 
 AI is genuinely useful for FileMaker development, but only if it stops guessing. Left to its training data, a model invents functions that don't exist, and emits layout and schema XML that FileMaker rejects silently — no error, the object just never appears.
 
-These are open tools and specifications that fix that: the knowledge an AI needs to generate FileMaker that actually works, and the tools to check what it produces. Much of it is reverse-engineering FileMaker's undocumented clipboard XML — the formats Claris has never published, where a wrong guess pastes silently and breaks. The rest is giving the model the vocabulary and verification it otherwise lacks.
+These are open tools and specifications that fix that: the knowledge an AI needs to generate FileMaker that actually works, and the tools to check what it produces. Much of it is reverse-engineering FileMaker's undocumented clipboard XML — the formats Claris has never published, where a wrong guess pastes silently and breaks. The rest is giving the model the vocabulary, reasoning and verification it otherwise lacks.
 
 **Start here**
 
