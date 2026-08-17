@@ -20,7 +20,7 @@ These are open tools and specifications that fix that: the knowledge an AI needs
 A reasoning skill, not a knowledge file. It makes the model challenge its own first answer on exactly the problems where the common FileMaker solution works in a demo and fails silently in production, and it forces a proper read of Claris Help, Notes and platform sections included, before any behaviour claim is made. Built and refined against production work. New, and the piece the rest of this page stacks under.
 
 **[FileMaker AI Vocabulary](https://github.com/andykear/FileMaker-AI-vocabulary)**
-Every FileMaker 26 function and script step in ~7,000 tokens, so an AI stops inventing things that don't exist. The cheapest way to make any model better at FileMaker — no XML required.
+Every FileMaker 26 function and script step in ~7,000 tokens, so an AI stops inventing things that don't exist. The cheapest way to make any model better at FileMaker.
 
 **Generation — paste-ready FileMaker XML**
 
