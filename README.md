@@ -22,7 +22,7 @@ A reasoning skill, not a knowledge file. It makes the model challenge its own fi
 **[FileMaker AI Vocabulary](https://github.com/andykear/FileMaker-AI-vocabulary)**\
 Every FileMaker 26 function and script step in ~7,000 tokens, so an AI stops inventing things that don't exist. The cheapest way to make any model better at FileMaker.
 
-**[FileMaker AI Grammar](https://github.com/andykear/FileMaker-AI-grammar)**
+**[FileMaker AI Grammar](https://github.com/andykear/FileMaker-AI-grammar)**\
 Every calculation's behaviour measured against real FileMaker Pro, not guessed from Python or Excel habits. Catches the silent traps that your AI may get wrong.
 
 **Generation — paste-ready FileMaker XML**
