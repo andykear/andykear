@@ -1,9 +1,10 @@
 ## Analyse a FileMaker solution in your browser
 Nothing installed, nothing uploaded, works offline.
 
-**[Clockwork Inspector](https://github.com/andykear/FileMaker-XML-inspector-open-source)** (SaXML) [![Stars](https://img.shields.io/github/stars/andykear/FileMaker-XML-inspector-open-source?style=social)]\
+**[Clockwork Inspector](https://github.com/andykear/FileMaker-XML-inspector-open-source)** (SaXML)\
 Drop in a Save as XML export. Unreferenced fields tiered by confidence, broken references, script call tree, relationship graph drawn from the real TO geometry, layout wireframes, and a diff between two versions down to the calculation line.
-Every check is documented, so the findings are defensible in front of a client.
+Every check is documented, so the findings are defensible in front of a client.\
+[![Stars](https://img.shields.io/github/stars/andykear/FileMaker-XML-inspector-open-source?style=social)]
 
 **[XML Scrubber](https://github.com/andykear/FileMaker-XML-scrubber)** (SaXML + others)
 Strips API keys, passwords and internal hostnames out of FileMaker XML before you hand it to an AI tool.
