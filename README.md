@@ -28,7 +28,7 @@ Every FileMaker 26 function and script step in ~7,000 tokens, so an AI stops inv
 Reverse-engineered specification of the packed <Options> numbers (bitflags) in FileMaker's Save as XML export.
 
 **[FileMaker AI Grammar](https://github.com/andykear/FileMaker-AI-grammar)**\
-Every calculation's behaviour measured against real FileMaker Pro, not guessed from Python or Excel habits. Catches the silent traps that your AI may get wrong.
+Every calculation's behaviour measured against real FileMaker Pro. Catches the silent traps that your AI may get wrong.
 
 **Generation — paste-ready FileMaker XML**
 
