@@ -32,7 +32,7 @@ All 18 layout object types mapped, every flag decoded, element order confirmed a
 Field, table and value list definition XML — auto-enter, validation, storage, calculation options, and the three value list source arms — verified down to the individual option level.
 
 
-**Research / Specialist**
+**---Research / Specialist---**
 
 **[FileMaker XML bit-flags](https://github.com/andykear/FileMaker-XML-bit-flags)** (SaXML)\
 Reverse-engineered specification of the packed <Options> numbers (bitflags) in FileMaker's Save as XML export.
