@@ -5,7 +5,7 @@ Peer makes Claude act like an experienced colleague you can use as a sounding bo
 problems without the frustrating AI habits of echoing you back, flattering you, agreeing too easily and shotgunning
 lists at you. It holds its view when you push back without a reason, and changes it when you give one.
 
-## FileMaker SKills & Research
+## FileMaker Skills & Research
 
 **[FileMaker Second Opinion](https://github.com/andykear/FileMaker-second-opinion)**\
 A reasoning skill, not a knowledge file. It makes the model challenge its own first answer on exactly the problems where the common FileMaker solution works in a demo and fails silently in production, and it forces a proper read of Claris Help, Notes and platform sections included, before any behaviour claim is made. Built and refined against production work. New, and the piece the rest of this page stacks under.
